@@ -30,6 +30,10 @@
     font-family: "Titillium Web", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--bg-color);
 }
@@ -70,7 +74,7 @@ img {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 71px;
     font-weight: 700;
     /* font-family: "Noto Sans", sans-serif; */
     font-family: "Rubik", sans-serif;
@@ -107,10 +111,20 @@ p {
 
 .selfdescription {
     font-family: "IBM Plex Serif", serif;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
 }
 
+#aboutinfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#aboutinfo > :not(img) {
+    order: 1;
+}
 
 .expinfo1 > h3 {
     margin-top: 10px;
@@ -377,6 +391,17 @@ main {
     .navbar {
         position: static;
         flex-direction: column;
+    }
+
+    #aboutinfo {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #aboutinfo > * {
+        order: 1;
     }
 
     img {
