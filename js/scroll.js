@@ -1,3 +1,5 @@
+var maincolorvibrant = "#00a1ff";
+
 var home = document.body.querySelector("#mainlink");
 var about = document.body.querySelector("#aboutlink");
 var exp = document.body.querySelector("#explink");
@@ -9,7 +11,7 @@ var sec3 = document.body.querySelector("#experience");
 var sec4 = document.body.querySelector("#projects");
 var sec5 = document.body.querySelector("#contact");
 var oldcol = about.style.color
-var newcol = "#4EA5D9";
+var newcol = maincolorvibrant;
 var sidebaroffset = 0;
 
 function nonbold () {

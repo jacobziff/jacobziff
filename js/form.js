@@ -1,3 +1,6 @@
+var maincolorneutral = "#4e9ac1";
+var maintextcolor = "#E0E0E0";
+
 var textarea = document.querySelector("textarea");
 var [text, email, tel] = document.querySelectorAll(".shortinput");
 var formElements = [text, email, tel, textarea];
@@ -5,14 +8,14 @@ var formElements = [text, email, tel, textarea];
 formElements.forEach(function (elt) {elt.addEventListener("focus", function () {
     if (this.value === this.defaultValue) {
         this.value = '';
-        this.style.color = "#ADD8E6";
+        this.style.color = maincolorneutral;
     }
 })});
 
 formElements.forEach(function (elt) {elt.addEventListener("blur", function () {
     if (this.value === '' || this.value === this.defaultValue) {
         this.value = this.defaultValue;
-        this.style.color = "#c9d1c9";
+        this.style.color = maintextcolor;
     }
 })});
 
@@ -54,7 +57,7 @@ send.addEventListener("click", function () {
         alert("Successfully Submitted!");
         [text, email, tel, textarea, send].forEach(function (elt) {
             elt.value = elt.defaultValue;
-            elt.style.color = "#c9d1c9";
+            elt.style.color = maintextcolor;
         })
         response.innerHTML = "";
     } else {

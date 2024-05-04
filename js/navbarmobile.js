@@ -1,3 +1,6 @@
+var maincolorvibrant = "#00a1ff";
+var secondarybgcolor = "#1E1B18";
+
 var sidebar = document.body.querySelector(".sidebar");
 
 var navbar = document.body.querySelector(".navbar");
@@ -11,8 +14,8 @@ var breakpoint = 800;
 window.addEventListener("load", function () {
     if (this.window.innerWidth < breakpoint) {
         navbar.style.position = "fixed";
-        navbar.style.background = "#011936";
-        navbar.style.border = "solid 2px #4EA5D9";
+        navbar.style.background = secondarybgcolor;
+        navbar.style.border = "solid 2px " + maincolorvibrant;
         navbar.style.borderRadius = "7px";
         navbar.style.padding = "10px 5px";
         header.style.paddingTop = "130px";
@@ -29,8 +32,8 @@ window.addEventListener("load", function () {
 window.addEventListener("resize", function () {
     if (this.window.innerWidth < breakpoint) {
         navbar.style.position = "fixed";
-        navbar.style.background = "#011936";
-        navbar.style.border = "solid 2px #4EA5D9";
+        navbar.style.background = secondarybgcolor;
+        navbar.style.border = "solid 2px " + maincolorvibrant;
         navbar.style.borderRadius = "7px";
         navbar.style.padding = "10px 5px";
         header.style.paddingTop = "130px";

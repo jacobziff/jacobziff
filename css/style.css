@@ -1,5 +1,5 @@
 /* Website Colors */
-:root {
+/* :root {
     --bg-color: #0F1729;
     --secondary-bg-color: #011936;
     --main-text-color: #c9d1c9;
@@ -9,13 +9,25 @@
     --main-color-neutral: #ADD8E6;
     --alternative: #2ECC51;
     --maize: #FFCB05;
+} */
+
+:root {
+    --bg-color: #010b13;
+    --secondary-bg-color: #1E1B18;
+    --main-text-color: #E0E0E0;
+    --text-heading-color: #E0E0E0;
+    --text-heading-color-2: #E0E0E0;
+    --main-color-vibrant: #00a1ff;
+    --main-color-neutral: #4e9ac1;
+    --alternative: #2ECC51;
+    --maize: #FFCB05;
 }
 
 * {
     background: 0;
     color: var(--main-text-color);
-    font-family: "Noto Sans", sans-serif;
     z-index: 3;
+    font-family: "Titillium Web", sans-serif;
 }
 
 body {
@@ -58,9 +70,10 @@ img {
 }
 
 h1 {
-    font-size: 78px;
+    font-size: 75px;
     font-weight: 700;
-    font-family: "Noto Sans", sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
+    font-family: "Rubik", sans-serif;
     margin-top: 50px;
     color: var(--text-heading-color);
     text-shadow: 0 1px 4px var(--main-color-vibrant);
@@ -93,7 +106,8 @@ p {
 }
 
 .selfdescription {
-    font-size: 24px;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -112,7 +126,6 @@ p {
 
 li {
     font-size: 30px;
-    font-family: "Noto Sans", sans-serif;
 }
 
 .section {
@@ -212,6 +225,7 @@ footer > * {
 }
 
 .sidelink, .footerlink, .projlink, .contactlink {
+    font-family: "Arimo", sans-serif;
     text-decoration: none;
     background:
     linear-gradient(
@@ -474,4 +488,5 @@ main {
 footer {
     z-index: 100;
     height: 400px;
+    font-family: "Titillium Web", sans-serif;
 }
