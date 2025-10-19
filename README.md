@@ -1,7 +1,7 @@
 # 👋 Hello, I'm Jacob
 
 ## 💫 About Me:
-📖 Currently studying Computer Science at the University of Michigan<br>💻 I enjoy coding and working with Software<br>🏈 I'm a huge football fan<br>🎧 Fun fact: I love electronic music<br>📧 Reach out to me: jacobmziff@gmail.com
+💻 Currently working as a Software Developer at Epic<br>🎾 I play tennis and pickleball<br>🏈 I'm a huge football fan<br>🎧 I love electronic music<br>📧 Reach out to me: jacobmziff@gmail.com
 
 
 ## 🌐 Socials:
